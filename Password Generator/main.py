@@ -29,6 +29,6 @@ for x in range(0, 50):
         password.append(random.choice(symbols))
         sym_check += 1
 
-print(nr_characters)
-print(''.join(password))
+print(f"The total number of characters is {nr_characters}.")
+print(f"Your password is: {''.join(password)}.")
 k = input("press anything to exit")
