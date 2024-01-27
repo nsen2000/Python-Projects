@@ -316,13 +316,13 @@ while not end_of_game:
             end_of_game = True
             print("You lose.")
             print(f"The correct word was {chosen_word}.")
+            k = input("you can exit now")
 
     print(f"{' '.join(display)}")
 
     if "_" not in display:
         end_of_game = True
         print("You win.")
-
-
+        k = input("you can exit now")
 
     print(stages[lives])
